@@ -19,7 +19,8 @@ RUN yum install -y fontconfig freetype && \
     cd /tmp && \
     wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.7-linux-x86_64.tar.bz2 && \
     tar xvf phantomjs-1.9.7-linux-x86_64.tar.bz2 && \
-    cp /tmp/phantomjs-1.9.7-linux-x86_64/bin/phantomjs /usr/local/bin
+    cp /tmp/phantomjs-1.9.7-linux-x86_64/bin/phantomjs /usr/local/bin && \
+    rm -rf /tmp/phantomjs-1.9.7-linux-x86_64 /tmp/phantomjs-1.9.7-linux-x86_64.tar.bz2
 
 # Download project sources
 RUN mkdir /dandelion && \
