@@ -20,7 +20,7 @@ docker pull tduchateau/dandelion-sources:0.10.0
 Run a new container from this image:
 
 ````
-docker run -p 4022:22 -p 9090:9090 -d dandelion/sources:0.10.0
+docker run -p 4022:22 -p 9090:9090 -d tduchateau/dandelion-sources:0.10.0
 ````
 
 Once the container launched, you can connect to it in SSH:
