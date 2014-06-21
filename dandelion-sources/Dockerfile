@@ -1,5 +1,5 @@
-# Dandelion sources 0.10.0 and exampless
-FROM dandelion/base
+# Dandelion sources 0.10.0 and examples
+FROM tduchateau/dandelion-base
 MAINTAINER Thibault Duchateau <thibault.duchateau@gmail.com>
 
 # 
